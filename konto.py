@@ -10,7 +10,6 @@ def konto_haldur(algne_saldo, toiming, summa):
     
     return uus_saldo
 
-# Põhiprogramm
 algne_saldo = float(input("Sisesta algne saldo: "))
 while True:
     print(f"\nPraegune saldo: {algne_saldo}€")
